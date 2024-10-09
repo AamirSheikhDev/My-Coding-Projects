@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    width: 100%;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.icon{
+    display: none;
+}
+.nav_bar_img{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+.nav_bar_img img{
+    max-width: 100%;
+    height: auto;
+}
+.nav_bar{
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    width: 10%;
+    height: 100%;
+}
+.logo img{
+    max-width: 100%;
+    height: auto;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+nav ul  a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    transition: all .2s ease;
+}
+nav ul  a:hover{
+    color: red;
+}
+.active{
+    background-color: #DB0646;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.active:hover{
+    color: white;
+    background-color: black;
+}
+/* Navbar end  */
+
+/* Hero_banner start here  */
+.hero{
+    width: 80%;
+    margin: 80px auto;
+    height: auto;
+}
+.hero_data{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-self: center;
+    height: auto;
+}
+.hero-left{
+    width: 90%;
+    height: auto;
+}
+.hero-left h2{
+    font-size: 45px;
+}
+.hero-left p{
+    font-size: 16px;
+    margin: 40px 0;
+    line-height: 1.6;
+    text-align: left;
+}
+.hero-left a{
+    font-size: 17px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.hero-right{
+    width: 100%;
+    height: auto;
+    background-color: #DB0646;
+    border-radius: 12px;
+    padding: 20px 0;
+    /* position: relative; */
+}
+
+.hero-right img{
+    max-width: 100%;
+    height: auto;
+}
+/* Hero section end here  */
+
+.Section_one{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+.logo_parent{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.div_logo{
+    width: 100%;
+    text-align: center;
+}
+.div_logo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.sub_section{
+    width: 80%;
+    margin:  auto;
+    margin-top: 100px;
+    height: auto;
+}
+.heading{
+   width: 100%;
+   align-items: left;
+}
+.heading h2{
+    font-size: 38px;
+}
+.Detail-cards{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    justify-content: space-between;
+    margin: 50px 0px;
+    color: white;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    padding: 10px 10px 40px 10px;
+    display: grid;
+    grid-template-rows: 34% 22% 35%;
+    border-radius: 12px;
+    color: black;
+    transition: all .5s ;
+    box-shadow: 4px 4px 5px 0 gray;
+}
+.cards:hover{
+    background-color: #DB0646;
+    color: white;
+}
+.img_div{
+    width: 30%;
+    padding: 10px 10px;
+    height: 75px;
+    background-image: url('images/pink.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards figcaption{
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.cards p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.cards a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px 0;
+    transition: all .5s;
+
+}
+.cards a:hover{
+    color: white;
+}
+
+/* section card end  */
+
+/* Start bg_cover  */
+
+.bg_cover{
+    width: 100%;
+    height: auto;
+}
+.bg_img{
+    width: 100%;
+    height: auto;
+}
+.bg_img img{
+    max-width: 100%;
+    height: auto
+}
+
+/* Bg img end here  */
+
+.team_section{
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+.team_member{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.team_head{
+    margin: 30px 0;
+}
+.heading p{
+    width: 59%;
+    margin: 20px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+.our_member{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 23% 23% 23% 23% ;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.member_img{
+    width: 100%;
+    height: auto;
+}
+.member_img img{
+    max-width: 100%;
+    height: auto;
+}
+.names{
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+/* Member Section has end here  */
+
+.form_sec{
+    width: 100%;
+    aspect-ratio: 1/.7;
+    background-image: url('images/girl-lap.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-left: 130px;
+    padding-top: 100px;
+}
+.form_parent{
+    width: 70%;
+    aspect-ratio: 1/.8;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px 40px ;
+}
+.form_heading{
+    width: 100%;
+    align-items: left;
+ }
+ .form_heading h2{
+     font-size: 38px;
+     margin: 20px 0;
+ }
+ .form_heading p{
+    font-size: 16px;
+    line-height: 1.5;
+ }
+ .form_data{
+    width: 100%;
+    margin: 20px 0;
+ }
+ .form_data figure{
+    font-size: 22px;
+    margin: 10px 0;
+ }
+ .input_field{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    align-items: baseline;
+ }
+ .input_field input, select, .text_area textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    font-size: 13px;
+    background-color: #EEEEEE;
+ }
+ .text_area textarea{
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+    max-height: 130px;
+ }
+
+.submit_btn{
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* form end here  */
+
+.blog_post{
+    width: 100%;
+    height: auto;
+}
+.parent_blog{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog_article{
+    width: 100%;
+    height: auto;
+}
+
+.blog_article h2{
+    font-size: 38px;
+}
+.blog_article p{
+    font-size: 16px;
+    margin: 20px 0px;
+    line-height: 1.6;
+}
+.img_parent{
+    width: 100%;
+    height: auto;
+}
+.img_parent img{
+    max-width: 100%;
+    height: auto;
+}
+.img_parent figcaption{
+    line-height: 1.2;
+    margin-top: 10px;
+}
+.img_parent a{
+    text-decoration: none;
+    text-align: left;
+    margin-top: 10px;
+    display: inline-block;
+    color: red;
+}
+.img_parent a:hover{
+    color: black;
+
+}
+/* footer has started  */
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color:black;
+}
+.footer_content_parent{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% 15% 15% 25% ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.content_footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    
+    color: white;
+}
+.content_footer h3{
+    font-size: 20px;
+    text-align: left;
+
+}
+.content_footer ul{
+    list-style: none;
+    margin: 10px 0;
+}
+.content_footer ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.8;
+    padding-left: 0;
+    transition: padding .5s;
+    font-size: 16px;
+}
+.content_footer ul li a:hover{
+    padding-left: 10px;
+}
+.left_cont_left{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 40%;
+
+}
+.logo_div{
+    width: 100%;
+    height: auto;
+}
+.logo_div img {
+    max-width: 40%;
+    height: auto;
+    float: right;
+    margin-right: 10px;
+}
+.logo_div2{
+    width: 100%;
+    height: auto;
+
+}
+.logo_div2 img{
+    max-width: 100%;
+    height: auto;
+}
