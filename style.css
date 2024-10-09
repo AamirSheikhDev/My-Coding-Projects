@@ -398,7 +398,7 @@ footer{
     background-color:black;
 }
 .footer_content_parent{
-    width: 100%;
+    width: 90%;
     height: auto;
     display: grid;
     grid-template-columns: 25% 15% 15% 25% ;
